@@ -13,7 +13,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/stainless-sdks/farquest-go/internal/param"
+	"github.com/FarquestSocial/farquest-go/internal/param"
 )
 
 var encoders sync.Map // map[encoderEntry]encoderFunc

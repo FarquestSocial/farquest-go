@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stainless-sdks/farquest-go"
-	"github.com/stainless-sdks/farquest-go/internal"
-	"github.com/stainless-sdks/farquest-go/option"
+	"github.com/FarquestSocial/farquest-go"
+	"github.com/FarquestSocial/farquest-go/internal"
+	"github.com/FarquestSocial/farquest-go/option"
 )
 
 type closureTransport struct {
