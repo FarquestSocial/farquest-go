@@ -17,10 +17,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/stainless-sdks/farquest-go/internal"
-	"github.com/stainless-sdks/farquest-go/internal/apierror"
-	"github.com/stainless-sdks/farquest-go/internal/apiform"
-	"github.com/stainless-sdks/farquest-go/internal/apiquery"
+	"github.com/FarquestSocial/farquest-go/internal"
+	"github.com/FarquestSocial/farquest-go/internal/apierror"
+	"github.com/FarquestSocial/farquest-go/internal/apiform"
+	"github.com/FarquestSocial/farquest-go/internal/apiquery"
 )
 
 func getDefaultHeaders() map[string]string {

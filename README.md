@@ -1,6 +1,6 @@
 # Farquest Go API Library
 
-<a href="https://pkg.go.dev/github.com/stainless-sdks/farquest-go"><img src="https://pkg.go.dev/badge/github.com/stainless-sdks/farquest-go.svg" alt="Go Reference"></a>
+<a href="https://pkg.go.dev/github.com/FarquestSocial/farquest-go"><img src="https://pkg.go.dev/badge/github.com/FarquestSocial/farquest-go.svg" alt="Go Reference"></a>
 
 The Farquest Go library provides convenient access to [the Farquest REST
 API](https://docs.farquest.com) from applications written in Go. The full API of this library can be found in [api.md](api.md).
@@ -9,17 +9,25 @@ It is generated with [Stainless](https://www.stainlessapi.com/).
 
 ## Installation
 
+<!-- x-release-please-start-version -->
+
 ```go
 import (
-	"github.com/stainless-sdks/farquest-go" // imported as farquest
+	"github.com/FarquestSocial/farquest-go" // imported as farquest
 )
 ```
 
+<!-- x-release-please-end -->
+
 Or to pin the version:
 
+<!-- x-release-please-start-version -->
+
 ```sh
-go get -u 'github.com/stainless-sdks/farquest-go@v0.0.1-alpha.0'
+go get -u 'github.com/FarquestSocial/farquest-go@v0.1.0-alpha.1'
 ```
+
+<!-- x-release-please-end -->
 
 ## Requirements
 
@@ -35,7 +43,7 @@ package main
 import (
 	"context"
 
-	"github.com/stainless-sdks/farquest-go"
+	"github.com/FarquestSocial/farquest-go"
 )
 
 func main() {
@@ -144,7 +152,7 @@ client.Organizations.New(context.TODO(), ...,
 )
 ```
 
-See the [full list of request options](https://pkg.go.dev/github.com/stainless-sdks/farquest-go/option).
+See the [full list of request options](https://pkg.go.dev/github.com/FarquestSocial/farquest-go/option).
 
 ### Pagination
 
@@ -340,4 +348,4 @@ This package generally follows [SemVer](https://semver.org/spec/v2.0.0.html) con
 
 We take backwards-compatibility seriously and work hard to ensure you can rely on a smooth upgrade experience.
 
-We are keen for your feedback; please open an [issue](https://www.github.com/stainless-sdks/farquest/farquest-go/issues) with questions, bugs, or suggestions.
+We are keen for your feedback; please open an [issue](https://www.github.com/FarquestSocial/farquest-go/issues) with questions, bugs, or suggestions.
