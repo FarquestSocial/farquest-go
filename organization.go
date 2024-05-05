@@ -6,10 +6,10 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/stainless-sdks/farquest-go/internal/apijson"
-	"github.com/stainless-sdks/farquest-go/internal/param"
-	"github.com/stainless-sdks/farquest-go/internal/requestconfig"
-	"github.com/stainless-sdks/farquest-go/option"
+	"github.com/FarquestSocial/farquest-go/internal/apijson"
+	"github.com/FarquestSocial/farquest-go/internal/param"
+	"github.com/FarquestSocial/farquest-go/internal/requestconfig"
+	"github.com/FarquestSocial/farquest-go/option"
 )
 
 // OrganizationService contains methods and other services that help with

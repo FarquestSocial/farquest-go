@@ -3,7 +3,7 @@
 package farquest
 
 import (
-	"github.com/stainless-sdks/farquest-go/internal/apierror"
+	"github.com/FarquestSocial/farquest-go/internal/apierror"
 )
 
 type Error = apierror.Error

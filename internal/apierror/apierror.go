@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"net/http/httputil"
 
-	"github.com/stainless-sdks/farquest-go/internal/apijson"
+	"github.com/FarquestSocial/farquest-go/internal/apijson"
 )
 
 // Error represents an error that originates from the API, i.e. when a request is

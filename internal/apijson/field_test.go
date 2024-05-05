@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stainless-sdks/farquest-go/internal/param"
+	"github.com/FarquestSocial/farquest-go/internal/param"
 )
 
 type Struct struct {

@@ -6,8 +6,8 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/stainless-sdks/farquest-go/internal/requestconfig"
-	"github.com/stainless-sdks/farquest-go/option"
+	"github.com/FarquestSocial/farquest-go/internal/requestconfig"
+	"github.com/FarquestSocial/farquest-go/option"
 )
 
 // Client creates a struct with services and top level methods that help with
