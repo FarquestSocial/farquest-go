@@ -1,4 +1,4 @@
-module github.com/stainless-sdks/farquest-go
+module github.com/FarquestSocial/farquest-go
 
 go 1.19
 

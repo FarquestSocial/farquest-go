@@ -6,8 +6,8 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/stainless-sdks/farquest-go/internal/requestconfig"
-	"github.com/stainless-sdks/farquest-go/option"
+	"github.com/FarquestSocial/farquest-go/internal/requestconfig"
+	"github.com/FarquestSocial/farquest-go/option"
 )
 
 // QuestTypeService contains methods and other services that help with interacting

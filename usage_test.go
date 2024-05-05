@@ -7,9 +7,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/stainless-sdks/farquest-go"
-	"github.com/stainless-sdks/farquest-go/internal/testutil"
-	"github.com/stainless-sdks/farquest-go/option"
+	"github.com/FarquestSocial/farquest-go"
+	"github.com/FarquestSocial/farquest-go/internal/testutil"
+	"github.com/FarquestSocial/farquest-go/option"
 )
 
 func TestUsage(t *testing.T) {
